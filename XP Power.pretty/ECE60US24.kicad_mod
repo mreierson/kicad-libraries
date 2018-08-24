@@ -1,0 +1,17 @@
+(module ECE60US24 (layer F.Cu) (tedit 57030DFB)
+  (fp_text reference U1 (at 0 1.905) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value ECE60US24 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -19.05 -45.72) (end 19.05 -45.72) (layer F.SilkS) (width 0.15))
+  (fp_line (start -19.05 -45.72) (end -19.05 45.72) (layer F.SilkS) (width 0.15))
+  (fp_line (start 19.05 -45.72) (end 19.05 45.72) (layer F.SilkS) (width 0.15))
+  (fp_line (start -19.05 45.72) (end 19.05 45.72) (layer F.SilkS) (width 0.15))
+  (fp_line (start -19.05 0) (end -19.05 -7.62) (layer F.SilkS) (width 0.15))
+  (pad 1 thru_hole circle (at -15.0114 42.1894) (size 4.064 4.064) (drill 2.5908) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 15.0114 42.1894) (size 4.064 4.064) (drill 2.5908) (layers *.Cu *.Mask F.SilkS))
+  (pad 3 thru_hole circle (at -15.0114 -42.1894) (size 4.064 4.064) (drill 2.5908) (layers *.Cu *.Mask F.SilkS))
+  (pad 4 thru_hole circle (at -2.3114 -42.1894) (size 4.064 4.064) (drill 2.5908) (layers *.Cu *.Mask F.SilkS))
+)
